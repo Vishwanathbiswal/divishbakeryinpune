@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+// import {Typography} from '@mui/material'
 import './App.css';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { Container } from '@mui/material';
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import CakeSection from './components/CakeSection';
+import ContactUs from './components/ContactUs';
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#864313',
+    },
+  },
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // Changing the color of the menu bar using ThemeProvider component & theme props
+    <ThemeProvider theme={theme}>
+      <Navbar />
+      <Container>
+        {/* Inserting HeroSection inside Container component to keep everything in center */}
+        <HeroSection />
+        <CakeSection />
+        <ContactUs />
+      </Container>
+    </ThemeProvider>
   );
 }
 
