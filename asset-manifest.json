@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/divishbakeryinpune/static/css/main.073c9b0a.css",
+    "main.js": "/divishbakeryinpune/static/js/main.37a8367f.js",
+    "static/js/787.f9daa1d6.chunk.js": "/divishbakeryinpune/static/js/787.f9daa1d6.chunk.js",
+    "static/media/cake.png": "/divishbakeryinpune/static/media/cake.c9fbc8d7783425e4dba7.png",
+    "index.html": "/divishbakeryinpune/index.html",
+    "main.073c9b0a.css.map": "/divishbakeryinpune/static/css/main.073c9b0a.css.map",
+    "main.37a8367f.js.map": "/divishbakeryinpune/static/js/main.37a8367f.js.map",
+    "787.f9daa1d6.chunk.js.map": "/divishbakeryinpune/static/js/787.f9daa1d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.37a8367f.js"
+  ]
+}
